@@ -1,1 +1,1 @@
-permalink:     :title.html
+permalink:     weblog/:title.html
