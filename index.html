@@ -1,0 +1,16 @@
+---
+layout: default
+title: my blog
+---
+
+<h2>{{ page.title }}</h2>
+<p>lastest posts</p>
+<ul>
+	{% for post in site.posts %}
+<<<<<<< HEAD
+		<li>{{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+=======
+		<li>{{ post.date | date_to_string }} <a href="{{post.url}}">{{ post.title }}</a></li>
+>>>>>>> 3ecd2b5e8ba2bc301d43c8b55956e443b3414029
+	{% endfor %}
+</ul>
